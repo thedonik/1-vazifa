@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: center;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 40px 0;
+}
+
+.header-link {
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 2.57143px;
+  color: #7d7d7d;
+  text-decoration: none;
+}
+
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
+}
+.item9 {
+  grid-area: item9;
+}
+.item10 {
+  grid-area: item10;
+}
+.item11 {
+  grid-area: item11;
+}
+.item12 {
+  grid-area: item12;
+}
+.item13 {
+  grid-area: item13;
+}
+.item14 {
+  grid-area: item14;
+}
+.item15 {
+  grid-area: item15;
+}
+.pictures {
+  padding-top: 40px;
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: 310px 310px 310px 310px;
+
+  grid-template-areas:
+    "item1 item2 item3 item4" 
+    "item5 item2 item3 item8" 
+    "item5 item2 item7 item8" 
+    "item5 item6 item7 item8" 
+    "item5 item6 item7 item11" 
+    "item9 item6 item7 item11" 
+    "item9 item10 item7 item11"
+    "item9 item10 item14 item11" 
+    "item9 item10 item14 item11" 
+    "item9 item13 item14 item15" 
+    "item12 item13 item14 item15" 
+    "item12 item13 item14 item15"; 
+
+  grid-gap: 40px;
+}
